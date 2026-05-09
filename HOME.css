@@ -79,7 +79,7 @@ ul li a:hover{
     margin-left: 270px;
 }
 
-.search :hover{
+.search:hover{
     color: #64ffda;
     background:none;
 }
@@ -235,7 +235,7 @@ a i:hover{
     ul li{
         margin: 11px ;
         text-align: center;
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .search{
@@ -244,7 +244,6 @@ a i:hover{
         display: flex;
         justify-content: center;
         margin-top: 10px;
-      
     }
 
     .srch{
