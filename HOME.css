@@ -228,14 +228,14 @@ a i:hover{
     }
 
     .ul{
-        flex-direction: column;
         float: none;
         padding: 0;
     }
 
     ul li{
-        margin: 15px 0;
+        margin: 11px ;
         text-align: center;
+        font-size: x-small;
     }
 
     .search{
@@ -244,6 +244,7 @@ a i:hover{
         display: flex;
         justify-content: center;
         margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     .srch{
