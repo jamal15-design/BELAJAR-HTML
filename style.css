@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing:border-box ;
 }
 
 body{
@@ -47,7 +48,7 @@ body{
     height: 70px;
 }
 
-.ul{
+ul{
     float: left;
     display: flex;
     justify-content: center;
@@ -198,105 +199,140 @@ a i:hover{
     color: #ff0000;
 }
 
+/* Tambahkan INI SAJA ke CSS asli Anda */
 
-/* =========================
-   RESPONSIVE MOBILE
-========================= */
-@media screen and (max-width: 768px){
-
-    .navbar{
-        width: 100%;
-        height: auto;
-        padding-bottom: 20px;
+@media screen and (max-width: 1024px) {
+    .navbar {
+        width: 95%;
+        padding: 0 20px;
     }
-
-    .icon{
-        width: 100%;
-        text-align: center;
-    }
-
-    .logo{
-        float: none;
-        padding-left: 0;
-        font-size: 30px;
-        padding-top: 20px;
-    }
-
-    .menu{
-        width: 100%;
-        height: auto;
-    }
-
-    .ul{
-        float: none;
-        padding: 0;
-    }
-
-    ul li{
-        margin: 11px ;
-        text-align: center;
-        font-size: 13px;
-    }
-
-    .search{
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-    }
-
-    .srch{
-        width: 55%;
-        font-size: 14px;
-    }
-
-    .btn{
-        width: 80px;
-        font-size: 14px;
-    }
-
-    .content{
-        width: 100%;
-        text-align: center;
-        float: none;
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    .content h1{
-        font-size: 35px;
-        padding-left: 0;
-        margin-top: 40px;
-        line-height: 50px;
-    }
-
-    .content span{
-        font-size: 40px;
-    }
-
-    .content .perkenalan{
-        padding-left: 0;
-        font-size: 15px;
-        line-height: 28px;
-    }
-
-    .join{
-        display: block;
-        margin: 20px auto;
-    }
-
-    /* ICON SOSMED */
-    a i{
-        float: none;
-        font-size: 28px;
-        padding-right: 0;
-        margin: 10px;
-    }
-
-    body{
-        overflow-x: hidden;
+    
+    .content {
+        width: 95%;
     }
 }
 
+@media screen and (max-width: 768px) {
+    .main {
+        height: 100vh;
+    }
+    
+    .navbar {
+        width: 100%;
+        height: auto;
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .icon {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .logo {
+        font-size: 28px;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    
+    .menu {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    ul li {
+        margin-left: 25px;
+    }
+    
+    .search {
+        width: 280px;
+        margin-left: 0;
+        justify-content: center;
+    }
+    
+    .content {
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .content h1 {
+        font-size: 42px;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+    
+    .content .perkenalan {
+        padding-left: 0;
+        font-size: 16px;
+    }
+    
+    .join {
+        margin-left: 0;
+        display: inline-block;
+    }
+}
 
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 24px;
+    }
+    
+    ul li {
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    
+    .srch {
+        width: 160px;
+        font-size: 14px;
+    }
+    
+    .content h1 {
+        font-size: 34px;
+    }
+    
+    .content .perkenalan {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    
+    .join {
+        width: 150px;
+        font-size: 16px;
+    }
+    
+    a i {
+        font-size: 26px;
+        padding-right: 20px;
+    }
+}
+
+/* Fix layout */
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .icon {
+        width: auto;
+        float: left;
+    }
+    
+    .menu {
+        width: auto;
+        float: right;
+    }
+    
+    .search {
+        float: right;
+        margin-left: auto;
+    }
+}
