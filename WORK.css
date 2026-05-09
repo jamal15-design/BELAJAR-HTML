@@ -118,3 +118,108 @@ ul li a:hover{
     padding-top: 30px;
     color: #ccd6f6;
 }
+
+/* =========================
+   RESPONSIVE MOBILE
+========================= */
+
+@media screen and (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .main{
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    /* NAVBAR */
+    .navbar{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .icon{
+        width: 100%;
+        height: auto;
+        float: none;
+        text-align: center;
+    }
+
+    .logo{
+        float: none;
+        padding-left: 0;
+        padding-top: 15px;
+        font-size: 32px;
+    }
+
+    .menu{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-top: 10px;
+    }
+
+    .ul{
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    ul li{
+        margin: 10px 12px;
+        font-size: 13px;
+    }
+
+    ul li a{
+        font-size: 13px;
+    }
+
+    /* SEARCH */
+    .search{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-top: 15px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .srch{
+        width: 55%;
+        height: 38px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .btn{
+        width: 80px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    /* KOSONG */
+    .kosong{
+        width: 90%;
+        margin: 40px auto;
+        padding-top: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
