@@ -103,3 +103,12 @@ ul li a:hover{
 .btn:hover{
     color: #64ffda;
 }
+
+.kosong{
+    width: 85%;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: #ccd6f6;
+}

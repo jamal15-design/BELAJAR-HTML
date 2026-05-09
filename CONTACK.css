@@ -103,3 +103,29 @@ ul li a:hover{
 .btn:hover{
     color: #64ffda;
 }
+
+.sosmed{
+    width: 85%;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+a i{
+    font-size: 70px;
+    padding: 30px;
+}
+
+.fa-whatsapp{
+    color: #25d366;
+}
+.fa-instagram{
+    color: #e1306c;
+}
+.fa-tiktok{
+    color: #000;
+}
+.fa-youtube{
+    color: #ff0000;
+}
