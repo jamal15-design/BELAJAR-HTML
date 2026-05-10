@@ -161,12 +161,17 @@ ul li a:hover{
     font-family: 'Times New Roman';
 }
 
-.video{
+.vid{
     width: 85%;
     height: 350px;
     margin: 20px 100px;
     display: flex;
     justify-content: center;
+}
+
+.vid .video{
+    border: 1px solid white;
+    border-radius: 15px;
 }
 
 /* =========================
