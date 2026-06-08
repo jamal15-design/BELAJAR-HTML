@@ -136,6 +136,10 @@ a i{
     color: #ff0000;
 }
 
+a i:hover{
+    color: #ccd6f6;
+}
+
 
 /* =========================
    RESPONSIVE MOBILE

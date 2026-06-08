@@ -113,6 +113,9 @@ ul li a:hover{
     border-right: none;
 }
 
+.btn:hover{
+    color: #64ffda;
+}
 .btn:focus{
     outline: none;
 }

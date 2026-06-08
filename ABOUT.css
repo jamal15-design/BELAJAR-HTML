@@ -95,6 +95,14 @@ ul li a:hover{
     border-left: none;
 }
 
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
 .btn{
     width: 100px;
     height: 40px;
