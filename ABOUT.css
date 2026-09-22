@@ -38,7 +38,7 @@ body{
     font-style: italic;
     padding-left: 40px;
     float: left;
-    padding-top: 10px;
+    padding-top: 17px;
 }
 
 .menu{
@@ -52,6 +52,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3px;
 }
 
 ul li{
@@ -125,6 +126,8 @@ ul li a:hover{
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    font-family: Arial;
+    font-weight: bold;
 }
 
 .tentang-saya{
@@ -166,7 +169,8 @@ ul li a:hover{
     justify-content: center;
     padding-top: 50px;
     color: #ccd6f6;
-    font-family: 'Times New Roman';
+    font-family: Arial;
+    font-weight: bold;
 }
 
 .vid{

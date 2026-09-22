@@ -38,7 +38,7 @@ body{
     font-style: italic;
     padding-left: 40px;
     float: left;
-    padding-top: 10px;
+    padding-top: 17px;
 }
 
 .menu{
@@ -52,6 +52,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3px;
 }
 
 ul li{
@@ -93,6 +94,14 @@ ul li a:hover{
     float: left;
     padding: 10px;
     border-left: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.btn:focus{
+    outline: none;
 }
 
 .btn{
